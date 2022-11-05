@@ -6,15 +6,37 @@
   box-sizing: border-box;
 }
 
+:root {
+  --card-tittle-border-color: #746615;
+  --card-color-primary: #f7dd43;
+  --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.svg);
+}
+
+body.blue {
+  --card-tittle-border-color: #33baf3;
+  --card-color-primary: #33baf3;
+  --card-bg-color: #202024;
+  --bg: url(./assets/bg-blue.svg);
+}
+
+body.green {
+  --card-tittle-border-color: #047c3f;
+  --card-color-primary: #047c3f;
+  --card-bg-color: #1a1f18;
+  --bg: url(./assets/bg-green.svg);
+}
+
 ul {
   list-style: none;
 }
 
 body {
   background-color: #121214;
-  background-image: url(./assets/bg.svg);
-  background-position-x: center;
-  background-position-y: 55.6%;
+  background-image: var(--bg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body * {
@@ -23,11 +45,19 @@ body * {
 
 #app {
   width: fit-content;
-  margin: 52px auto;
+  margin: auto;
+  padding-top: 52px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  transform: translate(10vw, 5vh);
 }
 
 header {
   margin-bottom: 63px;
+  text-align: center;
 }
 
 #cards {
@@ -39,8 +69,8 @@ header {
 .card {
   padding: 32px 32px;
   text-align: center;
-  background: #1d1c19;
-  border-bottom: 2px solid #f7dd43;
+  background: var(--card-bg-color);
+  border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
 }
 
@@ -50,7 +80,7 @@ header {
   align-items: center;
   gap: 16px;
   padding: 8px 16px;
-  border: 1px solid #746615;
+  border: 1px solid var(--card-tittle-border-color);
   border-radius: 6px;
   width: fit-content;
   margin-inline: auto;
@@ -87,4 +117,43 @@ header {
   font-size: 36px;
   line-height: 125%;
   color: #e1e1e6;
+}
+
+.card h2:hover,
+.card ul li strong:hover,
+.card ul li img:hover {
+  transform: scale(1.1);
+}
+
+.card h2,
+.card ul li strong,
+.card ul li img {
+  transition: transform 0.3s;
+}
+
+.card {
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@media (min-width: 750px) {
+  #cards {
+    max-width: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  button {
+    transform: translate(19vw, 16vh);
+  }
 }
