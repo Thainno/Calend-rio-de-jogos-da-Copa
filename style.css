@@ -7,17 +7,17 @@
 }
 
 :root {
-  --card-tittle-border-color: #746615;
-  --card-color-primary: #f7dd43;
-  --card-bg-color: #1d1c19;
-  --bg: url(./assets/bg-yellow.png);
-}
-
-body.blue {
   --card-tittle-border-color: #33baf3;
   --card-color-primary: #33baf3;
   --card-bg-color: #202024;
   --bg: url(./assets/bg-blue.png);
+}
+
+body.yellow{
+  --card-tittle-border-color: #746615;
+  --card-color-primary: #f7dd43;
+  --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.png);
 }
 
 body.green {
