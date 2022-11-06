@@ -37,6 +37,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body * {
@@ -54,7 +55,6 @@ button {
   height: 35px;
   border-radius: 2px;
   background-color: white;
-  color: var();
 }
 
 #btn {  
