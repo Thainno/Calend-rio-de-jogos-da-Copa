@@ -1,13 +1,15 @@
-let btn = document.getElementById("btn");
-let setcolor = ['yellow', 'Blue', 'green'];
-let nColor = setcolor.values
+let btnTheme = document.getElementById("btn")
+let setColor = ["yellow", "blue", "green"]
+let nColor = 0
 
-btn.addEventListener("click", () =>{
+btnTheme.addEventListener("click", () =>{  
+    nColor = nColor +1
+    if (nColor > 2){
+        nColor = 0
+    }
     document.body.removeAttribute("class")
-    document.body.classList.toggle(setcolor[nColor])
+    document.body.classList.toggle(setColor[nColor])
 })
-
-
 
 function creatGame(player1, hour, player2) {
     return `
@@ -31,7 +33,6 @@ function creatCard(date, day, games) {
     </div>
     `
 }
-
 
 document.querySelector("#cards").innerHTML = 
     creatCard("24/11", "quinta", 
