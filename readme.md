@@ -23,4 +23,4 @@
 ### 
 
 <h1>🔗 Referências</h1>
-<p>Site oficial da Rocketseat: <a href="[https://www.rocketseat.com.br/](https://www.rocketseat.com.br/)"</a>[https://www.rocketseat.com.br/](https://www.rocketseat.com.br/)</p>
+<p>Site oficial da Rocketseat: <a href="https://www.rocketseat.com.br/"</a>https://www.rocketseat.com.br/</p>
