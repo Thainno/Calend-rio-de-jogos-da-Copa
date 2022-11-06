@@ -5,10 +5,12 @@
 <h2>✅ Funcionalidades</h2>
     <ul>
     <li>Mostra todos os jogos da copa 2022;</li>
-    <li>Muda o tema entre as cores:
-        <li>Amarelo</li>
-        <li>Azul</li>
-        <li>Verde</li>
+    <li >Muda o tema entre as cores:
+        <ul>
+            <li>Amarelo</li>
+            <li>Azul</li>
+            <li>Verde</li>
+        </ul>
     </li>
 </ul><br>
 
