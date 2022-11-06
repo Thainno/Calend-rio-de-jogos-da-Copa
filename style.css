@@ -10,21 +10,21 @@
   --card-tittle-border-color: #746615;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
-  --bg: url(./assets/bg-yellow.svg);
+  --bg: url(./assets/bg-yellow.png);
 }
 
 body.blue {
   --card-tittle-border-color: #33baf3;
   --card-color-primary: #33baf3;
   --card-bg-color: #202024;
-  --bg: url(./assets/bg-blue.svg);
+  --bg: url(./assets/bg-blue.png);
 }
 
 body.green {
   --card-tittle-border-color: #047c3f;
   --card-color-primary: #047c3f;
   --card-bg-color: #1a1f18;
-  --bg: url(./assets/bg-green.svg);
+  --bg: url(./assets/bg-green.png);
 }
 
 ul {
@@ -55,6 +55,7 @@ button {
   height: 35px;
   border-radius: 2px;
   background-color: white;
+  margin-bottom: 25px;
 }
 
 #btn {  
@@ -64,11 +65,10 @@ button {
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
   background: var(--card-bg-color);
-  transform: translate(10vw, 10vh);
 }
 
 header {
-  margin-bottom: 63px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
