@@ -65,6 +65,12 @@ button {
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
   background: var(--card-bg-color);
+  cursor: pointer;
+}
+
+#btn:active {
+  border: none;
+  padding-top: -6px;
 }
 
 header {
