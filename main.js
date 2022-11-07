@@ -1,5 +1,5 @@
 let btnTheme = document.getElementById("btn")
-let setColor = ["yellow", "blue", "green"]
+let setColor = ["blue", "green", "yellow"]
 let nColor = 0
 
 btnTheme.addEventListener("click", () =>{  
