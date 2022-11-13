@@ -16,7 +16,7 @@ function creatGame(player1, placar1, placar2, player2) {
     <li>
         <img src="../assets/icon-${player1}.svg" alt="Bandeira do ${player1}">
         <strong>
-            <span>${placar1}-${placar2}</span>
+            <span>${placar1} - ${placar2}</span>
         </strong>
         <img src="../assets/icon-${player2}.svg" alt="Bandeira da ${player2}">
     </li>
