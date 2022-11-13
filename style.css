@@ -27,6 +27,12 @@ body.green {
   --bg: url(./assets/bg-green.png);
 }
 
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: #e1e1e6;
+}
+
 ul {
   list-style: none;
 }
@@ -50,15 +56,17 @@ body * {
   padding-top: 52px;
 }
 
-button {
-  width: 70px;
-  height: 35px;
-  border-radius: 2px;
-  background-color: white;
-  margin-bottom: 25px;
+nav {
+  display: flex;
+  align-items: center;
 }
 
-#btn {  
+button {
+  width: 70px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: white;
+  margin: 0 10px 23px 0;
   color: #e1e1e6;
   font-size: 14px;
   border: none;
@@ -68,9 +76,13 @@ button {
   cursor: pointer;
 }
 
-#btn:active {
+#btn-br {  
+  width: 120px;
+}
+
+#btn:active, #btn-br:active {
   border: none;
-  padding-top: -6px;
+  margin: 2px 10px 21px 0;  
 }
 
 header {

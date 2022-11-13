@@ -1,23 +1,10 @@
-let btnTheme = document.getElementById("btn")
-let setColor = ["blue", "green", "yellow"]
-let nColor = 0
-
-btnTheme.addEventListener("click", () =>{  
-    nColor = nColor +1
-    if (nColor > 2){
-        nColor = 0
-    }
-    document.body.removeAttribute("class")
-    document.body.classList.toggle(setColor[nColor])
-})
-
 function creatGame(player1, hour, player2) {
     return `
     <li>
         <img src="./assets/icon-${player1}.svg" alt="Bandeira do ${player1}">
         <strong>${hour}</strong>
         <img src="./assets/icon-${player2}.svg" alt="Bandeira da ${player2}">
-    </li> 
+    </li>
     `
 }
 
@@ -94,3 +81,5 @@ document.querySelector("#cards").innerHTML =
         creatGame("ghana", "12:00", "uruguay")+
         creatGame("serbia", "16:00", "switzerland")+
         creatGame("cameroon", "16:00", "brazil"))
+
+
