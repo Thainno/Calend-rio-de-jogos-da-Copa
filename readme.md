@@ -1,15 +1,19 @@
 <h1 align="center">Calendário Copa do mundo 2022</h1>
 
-<p>Calandário de jogos criado no evento nlw da Rocketseat.</p><br>
+<p>Calandário de todos os jogos da copa do mundo de 2022.</p><br>
 
 <h2>✅ Funcionalidades</h2>
     <ul>
-    <li>Mostra todos os jogos da copa 2022;</li>
+    <li>Lista todos os jogos da copa do mundo 2022;</li>
+    <li>Informação de dia e hora de cada jogo;</li>
+    <li>Lista os jogos do Brasil separadamente;</li>
+    <li>Informações do placar de todos os jogos;</li>
+    <li>Informações do placar dos jogos do Brasil separadamente;</li>
     <li >Muda o tema entre as cores:
         <ul>
-            <li>Amarelo</li>
-            <li>Azul</li>
-            <li>Verde</li>
+            <li>Amarelo;</li>
+            <li>Azul;</li>
+            <li>Verde.</li>
         </ul>
     </li>
 </ul><br>
