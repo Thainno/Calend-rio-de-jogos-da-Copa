@@ -18,7 +18,7 @@
 
 <p>Clique <a href="https://thainno.github.io/Calendario-Copa-2022/">aqui</a> para visualizar e testar o projeto.</p
 
-<img src="https://github.com/Thainno/Calendario-Copa-2022/blob/main/assets/jogos-copa.png"></img><br>
+<img src="https://github.com/Thainno/Calendario-Copa-2022/blob/main/preview/copa-preview.png"></img><br>
 
 ### 
 
